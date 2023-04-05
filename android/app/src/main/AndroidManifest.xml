@@ -2,9 +2,9 @@
     package="com.example.clima_flutter">
 
     <!-- Required to fetch data from user location. -->
-   <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <!-- Required to fetch data from the internet. -->
-    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET"/>
 
 
     <application
